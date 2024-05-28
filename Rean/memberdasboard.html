@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+           background-image:url("images/bg.jpg");
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            backdrop-filter: blur(5.4px);
+            -webkit-backdrop-filter: blur(5.4px);
+
+        }
+        .header {
+            background-color: #d2a478;
+            color: #ffffff;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            height: 50px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header .greeting {
+            display: flex;
+            align-items: center;
+        }
+        .header .greeting img {
+            border-radius: 50%;
+            height: 40px;
+            margin-left: 10px;
+        }
+        .navbar {
+            background-color: #d2a478;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        
+        .profile-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 30px auto;
+            margin-top: auto;
+            max-width: 700px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .profile-card .background {
+            height: 150px;
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .profile-card .avatar {
+            position: relative;
+            top: -50px;
+            margin-bottom: -50px;
+        }
+        .profile-card .avatar img {
+            border: 5px solid white;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+        }
+        .profile-card .info {
+            padding: 20px;
+        }
+        .profile-card .info div {
+            margin: 10px 0;
+        }
+        .profile-card .info div span {
+            display: block;
+            font-weight: bold;
+        }
+        .profile-card .edit-profile {
+            background-color: #d2a478;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            margin-top: 20px;
+            padding: 10px 20px;
+        }
+        .footer {
+            background-color: #1a3c40;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.svg" alt="BookWormer Logo">
+        <div class="greeting">
+            <div class="navbar">
+                <a href="index.php">Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2></h2>
+    </div>
+    <div class="profile-card">
+        <div class="background"></div>
+        <div class="avatar">
+            <img src="images/profile.jpg" alt="Avatar">
+        </div>
+        <div class="info">
+            <div>
+                <span>Full Name:</span> Rean Princess
+            </div>
+            <div>
+                <span>Email:</span> reannieprincesa@gmail.com
+            </div>
+            <div>
+                <span>Phone:</span> 09123456789
+            </div>
+           
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div>BookWormer</div>
+        <div>
+            <a href="#">Facebook</a> | <a href="#">Instagram</a>
+        </div>
+        <div>Contact Us: bcnp.admin@gmail.com</div>
+    </div>
+</body>
+</html>
